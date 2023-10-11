@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./imgs/fondo1.jpg);
+    background-size: cover;
+}
+
+
+@font-face {
+    font-family: holyfat;
+    src: url(./Holyfat.ttf);
+}
+
+.text-holyfat {
+    font-family: holyfat;
+    font-size: 40px;
+    color: #4cda00;
+   
+}
+
+.tipografia{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+.img{
+    margin-top: 10px;
+}
+.boton{
+  background-color:  #4cda00;
+  width: 15rem;
+  height: 7rem;
+  border-radius: 50%;
+  border: #4cda00;
+  margin-top: 30px;
+}
+
+.p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.title{
+    color: #4cda00 ;
+}
+.titulo{
+    border-radius: 30px;
+    background-color: rgba(240, 248, 255, 0.44);
+    font-size: 50px;
+    align-items: center;
+}
+.brillo:hover{
+    filter: brightness(1.1);
+}
+.video{
+    width: 29rem;
+}
+.texto-1{
+    border-radius: 5px;
+    background-color: #4cda00;
+    align-items: center;
+}
+
+p{
+    color: aqua;
+}
+
+h1, h3 {
+    color: #4cda00;
+}
+
+.navbar-nav a{
+    color: #4cda00;
+}
+.nav-item a:hover{
+    color: white;
+}
+.nav-link:hover{
+    background-color: #4cda00;
+    border-radius: 10%;
+}
+
+.collapse{
+    font-size: 50px;
+}
+
+i{
+    margin: 5px;
+}
+
+.pie{
+    background-color: rgba(255, 255, 255, 0.775);
+}
